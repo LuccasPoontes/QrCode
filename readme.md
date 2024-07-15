@@ -61,12 +61,16 @@ temp_img.paste(logo, ((temp_img.size[0] - logo.size[0]) // 2, (temp_img.size[1] 
 final_img = temp_img.convert("RGB")
 
 # Salvando a imagem do QR Code
-final_img.save("enhanced_qr.png")
+final_img.save("gerado_qr.png")
 
 print("QR code criado com sucesso e salvo como enhanced_qr.png")
 ```
 
-O QR Code será gerado e salvo como enhanced_qr.png.
+O QR Code será gerado e salvo como gerado_qr.png.
+
+Imagem de Retorno:
+![image](https://github.com/user-attachments/assets/817172f5-7124-4b89-8b13-dc2878a46cf5)
+
 
 ### Customização
 
